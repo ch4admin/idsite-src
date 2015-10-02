@@ -5,9 +5,8 @@
         <span>Log In</span>
         <span ng-show="canRegister" wd-can-register>
           <span> or </span>
-          <b>
-            <a href="#register">Create a Free Account</a>
-          </b>
+        <a href="#register" style="font-weight: 600;">Create a Free Account</a>
+
         </span>
 
       </div>
@@ -52,12 +51,12 @@
           </div>
         </div>
         <div class="form-group group-remember-me">
-          <div class="col-sm-8" ng-class="[hasSocial ? '' : 'col-sm-offset-4']">
+          <div class="col-sm-8" ng-class="[hasSocial ? '' : '']">
             <input type="checkbox" id="remember">
             <label for="remember">Remember me</label>
           </div>
         </div>
-        <div>
+        <div class="text-center">
           <button class="login btn btn-login btn-sp-green" type="submit" ng-disabled="submitting">Log In</button>
         </div>
       </form>

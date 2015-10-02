@@ -66,7 +66,11 @@ p{
   max-width: 620px;
 }
 
-
+// custom coloring for login button
+.btn-login:hover {
+  color: white;
+  background-color: #4FC1E9;
+}
 
 
 .logo-container{
@@ -210,8 +214,6 @@ p{
   }
   form{
     button{
-      display: block;
-      float: right;
       margin-bottom: 25px;
     }
     label{
@@ -273,6 +275,8 @@ p{
 
 .login-view{
 
+  max-width: 430px;
+
   & .box{
     background-color: @gray1;
     padding: 0;
@@ -289,8 +293,6 @@ p{
     @media (min-width: @screen-xs-max){
       padding: 0 @boxGutter;
     }
-
-    max-width: 430px;
 
     background-color: white;
 
