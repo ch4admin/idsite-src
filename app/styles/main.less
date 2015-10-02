@@ -66,6 +66,9 @@ p{
   max-width: 620px;
 }
 
+
+
+
 .logo-container{
   margin: 34px auto 25px auto;
   display: block;
@@ -77,11 +80,12 @@ p{
 
 .btn-sp-green{
   height: 45px;
+  min-width: 200px;
   line-height: 45px/2;
   padding: 0 40px;
   color: #fff;
   font-size: 17px;
-  .flatTwoColorGradient(#42c41a,#2dbd00,#43cd1a,#2ec700);
+  background-color: #3bafda;
 }
 
 .ms-gradient-fixes(@bottomColor,@topColor){
@@ -218,8 +222,6 @@ p{
 }
 
 .box{
-  box-shadow: 0 0px 3px 1px rgba(0, 0, 0, 0.1);
-  border:1px solid #cacaca;
   border-radius: 3px;
   padding: 0 @boxGutter;
 }
@@ -287,6 +289,8 @@ p{
     @media (min-width: @screen-xs-max){
       padding: 0 @boxGutter;
     }
+
+    max-width: 430px;
 
     background-color: white;
 

@@ -5,7 +5,9 @@
         <span>Log In</span>
         <span ng-show="canRegister" wd-can-register>
           <span> or </span>
-          <a href="#register">Create an Account</a>
+          <b>
+            <a href="#register">Create a Free Account</a>
+          </b>
         </span>
 
       </div>
@@ -39,14 +41,13 @@
           </div>
         </div>
         <div class="form-group group-email">
-          <label ng-class="[hasSocial ? 'col-sm-12' : 'col-sm-4']">Email</label>
-          <div ng-class="[hasSocial ? 'col-sm-12' : 'col-sm-8']">
+
+          <div ng-class="[hasSocial ? 'col-sm-12' : 'col-sm-12']">
             <input class="form-control" type="text" name="username" ng-model="username" placeholder="Email"/>
           </div>
         </div>
         <div class="form-group group-password">
-          <label ng-class="[hasSocial ? 'col-sm-12' : 'col-sm-4']">Password</label>
-          <div ng-class="[hasSocial ? 'col-sm-12' : 'col-sm-8']">
+          <div ng-class="[hasSocial ? 'col-sm-12' : 'col-sm-12']">
             <input class="form-control" type="password" name="password" ng-model="password" placeholder="Password"/>
           </div>
         </div>
